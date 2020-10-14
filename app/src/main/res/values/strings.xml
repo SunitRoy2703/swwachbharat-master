@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SwachhBharat</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="name">Name</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="prompt_otp">Enter OTP</string>
+    <string name="verify">Verify</string>
+    <string name="login">Towards Green Environment.</string>
+    <string name="complaints">Complaints</string>
+    <string name="events">Events</string>
+    <string name="New">New</string>
+    <string name="user">Me</string>
+    <string name="complain">Complaint</string>
+
+    <string name="post">Post a complaint</string>
+    <string name="motiveOne">Leap towards greener environment</string>
+
+    <string name="create">Create an event</string>
+    <string name="motiveTwo">Be the hero! Take an initiative</string>
+
+    <string name="google_maps_key">
+AIzaSyAjaA5z6hEWOqrqLHSl35oNiL_smlUhQf4
+</string>
+
+    <string name="facebook_application_id" translatable="false">974528626381841</string>
+    <!-- Facebook Application ID, prefixed by 'fb'. Enables Chrome Custom tabs. -->
+    <string name="facebook_login_protocol_scheme" translatable="false">fb974528626381841</string>
+
+
+</resources>

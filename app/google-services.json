@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "220710294811",
+    "firebase_url": "https://swachbharat-529f0.firebaseio.com",
+    "project_id": "swachbharat-529f0",
+    "storage_bucket": "swachbharat-529f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220710294811:android:5d2567ba0cfb2d1e0b6fbe",
+        "android_client_info": {
+          "package_name": "developer.com.sunit.swachbharat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220710294811-bnr6ilu5npsd385okks73n6cha5rnq06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "developer.com.sunit.swachbharat",
+            "certificate_hash": "5a5ea7bac74983b5b88914203083c91deeccf41b"
+          }
+        },
+        {
+          "client_id": "220710294811-v1onte88cb42hr5h475j2gc7p8ho30ga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVGNwRpEiJlSqkG47rwW74fjn0gCpIIaE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220710294811-v1onte88cb42hr5h475j2gc7p8ho30ga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

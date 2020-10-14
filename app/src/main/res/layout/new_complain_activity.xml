@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rounded_cardview_border"
+        android:elevation="80dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+
+
+            <TextView
+                android:drawableStart="@drawable/location"
+                android:id="@+id/location"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Location" />
+
+
+            <EditText
+                android:id="@+id/complain"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:focusable="true"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:hint="@string/complain"
+                android:inputType="text"
+                android:maxLines="2"
+                android:textColor="@color/colorAccent" />
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.design.widget.FloatingActionButton
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/upload"
+        app:borderWidth="15dp"
+        app:fabSize="normal"
+        android:layout_marginTop="25dp"
+        app:rippleColor="@color/colorPrimary"
+        android:src="@drawable/upload"
+        android:tag="post"
+        android:elevation="200dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

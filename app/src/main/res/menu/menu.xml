@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<item
+
+    android:icon="@drawable/complaints"
+    android:id="@+id/complains"
+    android:title="@string/complaints"/>
+    <item
+        android:icon="@drawable/event"
+        android:id="@+id/event"
+        android:title="@string/events"/>
+    <item
+        android:id="@+id/neww"
+        android:title="@string/New"
+        android:icon="@drawable/neww"/>
+    <item
+        android:id="@+id/user"
+        android:title="@string/user"
+        android:icon="@drawable/me"/>
+
+
+
+
+</menu>
